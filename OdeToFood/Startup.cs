@@ -53,9 +53,9 @@ namespace OdeToFood
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseCookiePolicy();
-
+            
             app.UseMvc();
+            app.UseCookiePolicy();
         }
     }
 }
